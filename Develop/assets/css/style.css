@@ -16,6 +16,7 @@ body {
 }
 
 #header h1 {
+    
     display: inline-block;
     font-size: 48px;
 }
@@ -25,6 +26,7 @@ body {
 }
 
 #header  {
+    overflow: auto;
     padding-top: 20x;
     margin-right: auto;
     float: auto;
@@ -91,16 +93,19 @@ p {
 }
 
 .benefit-lead {
+   
     margin-bottom: 32px;
     color: #ffffff;
 }
 
 .benefit-brand {
+   
     margin-bottom: 32px;
     color: #ffffff;
 }
 
 .benefit-cost {
+    overflow:  auto;
     margin-bottom: 32px;
     color: #ffffff;
 }
@@ -148,6 +153,7 @@ p {
 }
 
 .online-reputation-management {
+    overflow:  auto;
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -157,6 +163,7 @@ p {
 }
 
 .social-media-marketing {
+    overflow:  auto;
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
