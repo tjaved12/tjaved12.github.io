@@ -55,12 +55,11 @@ p {
     font-size: 16px;
 }
 
-.hero {
+#hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
     background-image: url("../images/digital-marketing-meeting.jpg");
-    alt:"Firm ethics"; 
     background-size: cover;
     background-position: center;
 }
@@ -76,7 +75,7 @@ p {
 }
 
 .content {
-    width: 75%;
+    width: 74%;
     display: inline-block;
     margin-left: 20px;
 }
@@ -127,7 +126,7 @@ p {
 
 .benefit-lead img {
     display: block;
-    margin: 10px auto;
+    margin:  auto;
     max-width: 150px;
 }
 
@@ -144,6 +143,7 @@ p {
 }
 
 .search-engine-optimization {
+    overflow: auto;
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -177,6 +177,8 @@ p {
 }
 
 .online-reputation-management img {
+    margin-right: auto;
+    margin-left: auto;
     max-height: 200px;
 }
 
@@ -185,18 +187,19 @@ p {
 }
 
 .search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
+    margin-bottom: 10px;
+    font-size: 22px;
 }
 
 .online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
+    margin-bottom: 10px;
+    font-size: 22px;
 }
 
 .social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
+    margin-bottom: 10px;
+      font-size: 22px;
+    
 }
 
 .footer {
@@ -207,5 +210,5 @@ p {
 }
 
 .footer h2 {
-    font-size: 20px;
+    font-size: 22px;
 }
