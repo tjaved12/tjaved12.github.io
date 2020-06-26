@@ -177,8 +177,7 @@ p {
 }
 
 .online-reputation-management img {
-    margin-right: auto;
-    margin-left: auto;
+   
     max-height: 200px;
 }
 
@@ -203,6 +202,8 @@ p {
 }
 
 .footer {
+    position: fixed;
+    margin-bottom: 0px;
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
