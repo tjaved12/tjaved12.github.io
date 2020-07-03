@@ -1,0 +1,181 @@
+
+
+
+
+
+#header {
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(255, 52, 16) ;
+    text-align: center;
+    font-size: large;
+    padding: 33.33px;
+    background-color: lemonchiffon;
+}
+
+#header h1 {
+    background-color: lemonchiffon;
+    font-size: 48px;
+}
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+color:grey;
+}
+h2{
+    background-color:lemonchiffon;
+    font-size: 28px;
+}
+
+.nav-link{
+ 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    cursor: pointer;
+    color: black;
+    text-align: center;
+   
+}
+
+
+.collapse:not(.show) {
+    display: block;
+}
+.bg-light{
+    background-color: white!important;
+    clear: both;
+}
+
+  .navbar-nav{
+   flex-direction: initial; 
+}
+
+ 
+ .navbar-nav .nav-link{
+          
+           
+    }
+
+
+.btn.btn-primary{
+    background-color: lemonchiffon;
+    text-emphasis-color: black;
+    color: black;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+    width: 40%;
+    height: 60%;
+}
+.online-reputation-management {
+  
+   overflow: hidden;
+    text-align: justify;
+     word-wrap: break-word;
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: white;
+        color: #ffffff;
+}
+
+  
+
+h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 10px;
+    color: grey;
+}
+li{
+    
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: left;
+  list-style:none;
+  color:black;
+  padding-right: 180px;
+  height: 50px;
+  width: 200px;
+  font-weight: bolder;
+}
+
+
+ 
+  #imagewrapper{
+      margin-left:auto ;
+      margin-right: auto;
+    margin-top: 50px;
+    padding-top: 240px;
+    height: 300px;
+    width: 250px;
+    background-image: url("./images/stevens2.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-style:double;
+    border-color: black;
+    text-align: center;
+}
+  #imagewrapper1{
+    margin-left:auto ;
+    margin-right: auto;
+    margin-top: 50px;
+    padding-top: 240px;
+    height: 300px;
+    width: 250px;
+    background-image: url("./images/rutgers.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-style:double;
+    border-color: black;
+    text-align: center;
+}
+  
+  
+  #imagewrapper2{
+    margin-left:auto ;
+    margin-right: auto;
+      margin-top: 50px;
+    padding-top: 240px;
+    height: 300px;
+    width: 250px;
+    background-image: url("./images/ISTQB.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-style:double;
+    border-color: black;
+    text-align: center;
+  }
+  #imagewrapper3{
+    margin-left:auto ;
+    margin-right: auto;
+    margin-top: 50px;
+    padding-top: 240px;
+    height: 300px;
+    width: 250px;
+    background-image: url("./images/astqb.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-style:double;
+    border-color: black;
+    text-align: center;
+  }
+
+  #imagewrapper4{
+    margin-left:auto ;
+    margin-right: auto;
+    margin-top: 50px;
+    padding-top: 240px;
+    height: 300px;
+    width: 250px;
+    background-image: url("./images/safe.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-style:double;
+    border-color: black;
+    text-align: center;
+  }
+p{
+   
+    text-align: justify;
+}
