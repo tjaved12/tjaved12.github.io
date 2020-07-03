@@ -31,8 +31,10 @@ h2{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 25px;
     cursor: pointer;
-    color: black;
+    color: grey;
     text-align: center;
+    margin: auto;
+
    
 }
 
@@ -50,10 +52,7 @@ h2{
 }
 
  
- .navbar-nav .nav-link{
-          
-           
-    }
+
 
 
 .btn.btn-primary{
@@ -94,7 +93,7 @@ li{
   text-align: left;
   list-style:none;
   color:black;
-  padding-right: 180px;
+  padding-right: 0px;
   height: 50px;
   width: 200px;
   font-weight: bolder;
@@ -178,4 +177,8 @@ li{
 p{
    
     text-align: justify;
+}
+.navbar{
+    flex-wrap: nowrap;
+    color:black;
 }
