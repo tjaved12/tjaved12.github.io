@@ -34,7 +34,7 @@ if (i === 'Yes') {
 
 if (j==="yes"){
   pass += special_Chr[Math.floor(Math.random()*special_Chr.length)];
-characterPool(special_Chr);
+characterPool.concat(special_Chr);
 }
 else {
  special_Chr = ('');
@@ -42,7 +42,7 @@ else {
 
 if (k==="yes"){
   pass += lower_alphabet[Math.floor(Math.random()*lower_alphabet.length)]; 
- characterPool(lower_alphabet);
+ characterPool.concat(lower_alphabet);
 }
  else{
 lower_alphabet= ('');
@@ -50,7 +50,7 @@ lower_alphabet= ('');
  
   if (l==="yes"){
     pass += upper_alphabet[Math.floor(Math.random()*upper_alphabet.length)];
-    characterPool(upper_alphabet);
+    characterPool.concat(upper_alphabet);
   } 
    else {
  upper_alphabet= ('');
