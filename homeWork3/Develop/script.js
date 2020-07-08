@@ -5,16 +5,17 @@ var j = prompt("You want to have special CHR in your password?yes or no");
 var k = prompt("You want to have lower case alphabets in your password?yes or no ");
 var l = prompt("You want to have uppercase alphabets in your password?yes or no");
 
-var numeral =[1,2,3,4,5,6,7,8,9,0];
-var special_Chr = ["!","*","#","$","%","&","?"];
+var numeral ='0123456789';
+var special_Chr = '!#$%&*';
 var lower_alphabet = 'abcdefghijklmnopqrstuvwxyz';
 var upper_alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
-var pass ="";
-var characterPool = []
+var pass = "";
+var characterPool = [];
+
 
 
 if (i === 'Yes') {
- pass += numeral[Math.floor(Math.random() * numeral.length)];
+ pass += numeral[Math.floor(Math.random()*numeral.length)];
  characterPool.concat(numeral);
 }
  else  {
@@ -33,7 +34,7 @@ if (i === 'Yes') {
 
 if (j==="yes"){
   pass += special_Chr[Math.floor(Math.random()*special_Chr.length)];
-characterPool.concat(special_Chr);
+characterPool(special_Chr);
 }
 else {
  special_Chr = ('');
@@ -41,7 +42,7 @@ else {
 
 if (k==="yes"){
   pass += lower_alphabet[Math.floor(Math.random()*lower_alphabet.length)]; 
- characterPool.concat(lower_alphabet);
+ characterPool(lower_alphabet);
 }
  else{
 lower_alphabet= ('');
@@ -49,7 +50,7 @@ lower_alphabet= ('');
  
   if (l==="yes"){
     pass += upper_alphabet[Math.floor(Math.random()*upper_alphabet.length)];
-    characterPool.concat(upper_alphabet);
+    characterPool(upper_alphabet);
   } 
    else {
  upper_alphabet= ('');
@@ -59,7 +60,8 @@ lower_alphabet= ('');
 
 function randomPassword(length){
 while(pass.length < max) {
- pass += characterPool[Math.floor(Math.random() * characterPool.length)]
+ 
+ pass += characterPool[Math.floor(Math.random()*characterPool.length)];
  myform.row_password.value = pass;
 }
 }
