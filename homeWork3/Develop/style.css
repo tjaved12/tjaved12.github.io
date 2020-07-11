@@ -52,10 +52,6 @@ header {
 
 .card-body {
   min-height: 100px;
-  width:100%;
-  background-color: hsl(360, 91%, 36%);
-  text-align: center;
-  padding: 2px;
 }
 
 .card-footer {
@@ -76,7 +72,7 @@ header {
   clear: both;
 }
 
-.button {
+.btn {
   border: none;
   background-color: hsl(360, 91%, 36%);
   border-radius: 25px;
@@ -100,21 +96,7 @@ button[disabled] {
 .float-right {
   float: right;
 }
-.myform{
-  width: 100%;
-}
-@media  (max-width: 790px) {
-  .myform{
-  font-size: 0.5rem;
-}
-}
 
-
-@media  (max-width: 790px) {
-  .row_password{
-  font-size: 0.5rem;
-  }
-}
 #password {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -137,7 +119,7 @@ button[disabled] {
 }
 
 @media (max-width: 690px) {
-  .button {
+  .btn {
     font-size: 1rem;
     margin: 16px 0px 0px 0px;
     padding: 10px 15px;
@@ -149,8 +131,7 @@ button[disabled] {
 }
 
 @media (max-width: 500px) {
-  .button {
+  .btn {
     font-size: 0.8rem;
   }
-
 }

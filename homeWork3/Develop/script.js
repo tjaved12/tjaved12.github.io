@@ -76,8 +76,10 @@ return password;
   for (j=possiblePw.length; j < passwordLength; j++){
     var finalPw = possiblePwLower + possiblePwNum + possiblePwUpper + possiblePwChr
     possiblePw+= finalPw [Math.floor(Math.random()*finalPw.length)];
-      console.log(possiblePw);
   }
+  console.log(possiblePw);
+
+  return possiblePw;
     }
 
   
