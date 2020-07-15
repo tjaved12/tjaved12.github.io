@@ -1,0 +1,30 @@
+#header{
+    margin-left:auto ;
+    margin-right: auto;
+    text-align: center;
+    }
+.primary-button{
+    margin-left: 500px;
+}
+    button{
+      margin-left: 300px;
+     
+    }
+    #question1{
+        display: none;
+       
+    }
+    #question2{
+        display: none;
+       
+    }
+    #question3{
+        display: none;
+    }
+    h2,h3{
+        text-align: center;
+    }
+    
+    label{
+        margin-left: 300px;
+    }
