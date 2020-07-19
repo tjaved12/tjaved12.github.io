@@ -60,7 +60,7 @@ let questions = [
 var lastQuestion = questions.length - 1;
 let runningQuestion = 0;
 let count = 0;
-var quizTime = 20; // 10s
+var quizTime = 30; // 10s
 var gaugeWidth = 150; // 150px
 var gaugeUnit = gaugeWidth / quizTime;
 let TIMER;
@@ -95,12 +95,16 @@ function renderProgress(){
     }
 }
 // counter render
-function renderCounter(){
+function renderCounter(answer){
     if(count <= quizTime){
         counter.innerHTML = count;
         timeGauge.style.width = count * gaugeUnit + "px";
+        
         count++
-    }else{
+        
+     
+    }
+    else{
         // change progress color to red
         answerIsWrong();
         if(runningQuestion < lastQuestion){
@@ -124,6 +128,8 @@ function checkAnswer(answer){
         // answer is wrong
         // change progress color to red
         answerIsWrong();
+        count+=5
+        
     }
     if(runningQuestion < lastQuestion){
         runningQuestion++;
@@ -139,7 +145,7 @@ function answerIsCorrect(){
     document.getElementById(runningQuestion).style.backgroundColor = "#0f0";
 }
 // answer is Wrong
-function answerIsWrong(){
+function answerIsWrong(count){
     document.getElementById(runningQuestion).style.backgroundColor = "#f00";
 }
 // score render
