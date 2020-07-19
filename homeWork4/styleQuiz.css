@@ -7,7 +7,7 @@ body{
 #container{
     margin : 20px auto;
     background-color: white;
-    height: 800px;
+    height: 650px;
     width : 700px;
     border-radius: 5px;
     box-shadow: 0px 5px 15px 0px;
@@ -148,8 +148,8 @@ list-style: none;
     position: absolute;
     width : 100px;
     height : 100px;
-    top:80px;
-    left:325px;
+    top:20px;
+    left:305px;
 }
 p{
     text-align: left;
@@ -157,23 +157,50 @@ p{
     margin-left: 20px;
 
 }
-#scoreContainer p{
+#scoreContainer li{
     position: absolute;
     display: block;
-    width : 59px;
-    height :59px;
-    top:150px;
-    left:350px;
-    font-size: 2em;
+    list-style: none;
+     top:40px;
+    left:130px;
+    font-size: 1.5em;
     font-weight: bold;
     text-align: center;
+    
 }
 
 
+#initial{
+    position: absolute;
+    display: block;
+    top:250px;
+    left:170px;
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+    background-color: white;
+}
 
+button{
+    position: absolute;
+    display: block;
+    top:250px;
+    left:445px;
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+ 
+}
 
-
-
+#over{
+    margin-top: 220px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+    color: maroon;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: brown;
+}
 
 
 

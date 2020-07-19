@@ -6,44 +6,53 @@
     <link rel="stylesheet" href="styleQuiz.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-</head>
-<body>
-    <div id="container">
-        <br><br>
-        <div id="start">Start Quiz!</div>
-        <div id="quiz" style="display: none">
-            <div id="question"></div>
-            <div id="qImg"></div>
-            <div id="choices">
-                <div class="choice" id="A" onclick="checkAnswer('A')"></div>
-                <div class="choice" id="B" onclick="checkAnswer('B')"></div>
-                <div class="choice" id="C" onclick="checkAnswer('C')"></div>
-                <div class="choice" id="D" onclick="checkAnswer('D')"></div>
-
-           
-              
-               </div>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Quiz</title>
+        <link rel="stylesheet" href="styleQuiz.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
+    </head>
+    <body>
+        <div id="container">
+            <br><br>
+            <div id="start">Start Quiz!</div>
+            <div id="quiz" style="display: none">
+                <div id="question"></div>
+                <div id="qImg"></div>
+                <div id="choices">
+                    <div class="choice" id="A" onclick="checkAnswer('A')"></div>
+                    <div class="choice" id="B" onclick="checkAnswer('B')"></div>
+                    <div class="choice" id="C" onclick="checkAnswer('C')"></div>
+                    <div class="choice" id="D" onclick="checkAnswer('D')"></div>
+    
+               
+                  
+                   </div>
+                    
+    
+                <div id="timer">
+                 
+                  <p>Time to Complete the Quiz:20 Sec</p>
+    
+                  <h3>Time Elapsed</h3>
+                    <div id="counter">
+                       
+                    </div>
                 
-
-            <div id="timer">
-             
-              <p>Time to Complete the Quiz:20 Sec</p>
-
-              <h3>Time Elapsed</h3>
-                <div id="counter">
+                    <div id="btimeGauge"></div>
+                   
+                    <div id="timeGauge"></div>
                    
                 </div>
-            
-                <div id="btimeGauge"></div>
-               
-                <div id="timeGauge"></div>
-               
+                <div id="progress">
+                <h3>Response Heat Map!</h3>
             </div>
-            <div id="progress">
-            <h3>Response Heat Map!</h3>
+            <div id="scoreContainer" style="display: none"></div>
         </div>
-        <div id="scoreContainer" style="display: none"></div>
-    </div>
-    <script src="scriptQuiz.js"></script>
-</body>
-</html>
+        <div id ="over"></div>
+        <script src="scriptQuiz.js"></script>
+    </body>
+    </html>
